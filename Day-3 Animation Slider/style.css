@@ -1,0 +1,67 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    flex: 0.5;
+    transition: 0.5s;
+}
+
+.panel_one{
+    
+   width: 80vw;
+   height: 80vh;
+    background-image: url("/img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:50px ;
+}
+.panel_two{
+    width: 80vw;
+   height: 80vh;
+     background-color: red;
+     background-image: url("/img/2.jpg");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     border-radius: 50px;
+ }
+ .panel_three{
+    width: 80vw;
+   height: 80vh;
+     background-color: red;
+     background-image: url("/img/3.jpg");
+     background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+     border-radius: 50px;
+ }
+ .panel_four{
+    width: 80vw;
+    height: 80vh;
+     background-color: red;
+     background-image: url("/img/4.jpg");
+     background-size: cover;
+     background-position:0%;
+    background-repeat: no-repeat;
+     border-radius: 50px;
+ }
+ .panel_five{
+    width: 80vw;
+    height: 80vh;
+     background-color: red;
+     background-image: url("/img/5.jpg");
+     background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+     border-radius: 50px;
+ }
+ .active{
+    flex: 5;
+ }
